@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i")
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 0px;
+	margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+ a{
+ 	font-weight: 600;
+ 	text-decoration: none;
+ }
+
+div#header {
+	width: 100%;
+	height: 50px;
+	background-color: #8e44ad;
+	margin: 0 auto;
+
+}
+
+div#header li{
+	margin-top: 16px;
+	margin-right: 10px;
+	float:right;
+	list-style-type: none;
+ 	color: #2980b9;
+ 	font-size: 1.3em;
+
+}
+
+div#header li i{
+margin-right: 5px;
+
+}
+
+
+.logo{
+
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.logo a{
+
+	font-size: 1.6em;
+	color: #fff
+}
+
+.logo a span{
+
+	font-weight: 300;
+}
+
+div#container {
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+.sidebar{
+	width: 250px;
+	/*height: 100%;*/
+	background-color: #1F2B38;
+	float: left;
+
+
+}
+
+.sidebar ul li{
+
+	font-color:#8e44ad;
+}
+
+.sidebar ul li div.general ul{
+	
+	background: #384F66;
+  font-size: 13px;
+  line-height: 30px;
+  height: 0px; /*Collapses the menu*/
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+
+  -webkit-transition: height 1s ease;
+     -moz-transition: height 1s ease;
+       -o-transition: height 1s ease;
+      -ms-transition: height 1s ease;
+          transition: height 1s ease;
+
+}
+
+
+.sidebar ul li:hover div.general ul{
+  height: 152px;
+}
+
+.sidebar ul li div.shipment ul{
+
+background: #384F66;
+  font-size: 13px;
+  line-height: 30px;
+  height: 0px; /*Collapses the menu*/
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+
+  -webkit-transition: height 1s ease;
+     -moz-transition: height 1s ease;
+       -o-transition: height 1s ease;
+      -ms-transition: height 1s ease;
+          transition: height 1s ease;
+
+}
+
+.sidebar ul li:hover div.shipment ul{
+
+	height: 255px;
+
+}
+
+
+.sidebar ul li div.pickup ul{
+
+background: #384F66;
+  font-size: 13px;
+  line-height: 30px;
+  height: 0px; /*Collapses the menu*/
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+
+  -webkit-transition: height 1s ease;
+     -moz-transition: height 1s ease;
+       -o-transition: height 1s ease;
+      -ms-transition: height 1s ease;
+          transition: height 1s ease;
+
+}
+
+.sidebar ul li:hover div.pickup ul{
+
+	height: 152px;
+
+}
+
+.sidebar ul li div.cod ul{
+
+background: #384F66;
+  font-size: 13px;
+  line-height: 30px;
+  height: 0px; /*Collapses the menu*/
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+
+  -webkit-transition: height 1s ease;
+     -moz-transition: height 1s ease;
+       -o-transition: height 1s ease;
+      -ms-transition: height 1s ease;
+          transition: height 1s ease;
+
+}
+
+.sidebar ul li:hover div.cod ul{
+
+	height: 100px;
+
+}
+.sidebar ul li div.product ul{
+
+background: #384F66;
+  font-size: 13px;
+  line-height: 30px;
+  height: 0px; /*Collapses the menu*/
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+
+  -webkit-transition: height 1s ease;
+     -moz-transition: height 1s ease;
+       -o-transition: height 1s ease;
+      -ms-transition: height 1s ease;
+          transition: height 1s ease;
+
+}
+
+.sidebar ul li:hover div.product ul{
+
+	height: 100px;
+
+}
+
+.sidebar ul li div.zone ul{
+
+background: #384F66;
+  font-size: 13px;
+  line-height: 30px;
+  height: 0px; /*Collapses the menu*/
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+
+  -webkit-transition: height 1s ease;
+     -moz-transition: height 1s ease;
+       -o-transition: height 1s ease;
+      -ms-transition: height 1s ease;
+          transition: height 1s ease;
+
+}
+
+.sidebar ul li:hover div.zone ul{
+
+	height: 100px;
+
+}
+
+
+ul#nav{
+
+margin-left: -40px;
+margin-top: 2px;
+}
+
+ul#nav li{
+	list-style: none;
+
+}
+
+ul#nav li a {
+	color: #ccc;
+	display: block;
+	padding: 10px;
+	font-size: 1em;
+	border-bottom: 1px solid #1C1C1C;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+
+}
+
+
+
+
+ul#nav li a:hover {
+	background-color: #141C24;
+	color: #BE5AE8;
+	padding-left: 30px;
+}
+
+ul#nav li a.selected{
+	background-color: #141C24;
+	color: #fff;
+
+}
+
+.content{
+
+	 width: auto;
+	 margin-left: 250px;
+	 height: 100%;
+	 background-color: #95a5a6;
+	 padding: 15px;
+	 
+
+}
+
+.content p{
+	margin-top: -20px;
+	color:#424242;
+	font-size: 0.8em;
+}
+
+div#box{
+
+	margin-top: 15px
+}
+
+div#box .box-top{
+	color: #fff;
+	text-shadow: 0px 1px #000;
+	background-color: #3498db;
+	padding: 5px;
+	padding-left: 15px;
+	font-weight: 300;
+}
+
+div#box .box-panel {
+	padding: 15px;
+	background-color: #fff;
+	color: #333;
+
+}
+
+a.mobile {
+	display: block;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	padding: 7px;
+
+}
+
+a.mobile:active{
+
+	background-color: #4a4a4a;
+}
+
+@media only screen and (max-width: 530px){
+	.sidebar{
+		width: 100%;
+		display: none;
+
+	}
+
+	div#header li{
+		display: none;
+
+	}
+	.content {
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (min-width: 530px){
+	a.mobile{
+		display: none;
+	}
+
+	.sidebar {
+		height: 100%;
+		display: block;
+	}
+
+	}
