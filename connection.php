@@ -3,7 +3,7 @@
  
 function Connect()
 {
- $dbhost = "localhost";
+ $dbhost = "localhost:8080";
  $dbuser = "root";
  $dbpass = "";
  $dbname = "xpatrol";

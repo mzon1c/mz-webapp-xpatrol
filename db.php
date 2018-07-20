@@ -2,7 +2,7 @@
 
 
 
-$con = mysqli_connect("localhost","root","","xpatrol");
+$con = mysqli_connect("localhost:8080","root","","xpatrol");
 // Check connection
 if (mysqli_connect_errno())
   {
